@@ -1,0 +1,32 @@
+body{
+
+    background-color: #8fece5c5;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+.product-image {
+  width: 250px;     /* same width for all */
+  height: 250px;    /* same height for all */
+  object-fit: cover; /* crop & center */
+  border-radius: 10px;
+}
+.card {
+  background: #b2f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
